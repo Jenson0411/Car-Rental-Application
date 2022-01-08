@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/textViewAddress" android:textAppearance="@style/Base.TextAppearance.AppCompat.Large" android:text=""/>
+    <TextView android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/textViewEmployee" android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium" android:text=""/>
+    <TextView android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/textViewWDHours" android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium" android:text=""/>
+    <TextView android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/textViewWKHours" android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium" android:text=""/>
+    <TextView android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/textViewNumber" android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium" android:text=""/>
+    <TextView android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/textViewRate" android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium" android:text=""/>
+
+</LinearLayout>

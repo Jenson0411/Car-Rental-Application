@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EpAddService">
+
+
+    <EditText
+        android:id="@+id/editEmName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter service name " />
+
+    <Button
+        android:id="@+id/EmAddButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editEmName"
+        android:layout_centerHorizontal="true"
+        android:layout_weight="1"
+        android:text="Add"
+        android:onClick="addService"/>
+
+    <Button
+        android:id="@+id/EmDeleteButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editEmName"
+        android:layout_toRightOf="@id/EmAddButton"
+        android:layout_centerHorizontal="true"
+        android:layout_weight="1"
+        android:text="Delete"
+        android:onClick="onClickDelete"/>
+
+    <Button
+        android:id="@+id/EmBackButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editEmName"
+        android:layout_toLeftOf="@id/EmAddButton"
+        android:layout_centerHorizontal="true"
+        android:layout_weight="1"
+        android:text="Back"
+        android:onClick="backBnt"/>
+
+    <TextView
+        android:id="@+id/EmTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/EmAddButton"
+        android:text="Services offered by Admin"
+        android:textAlignment="center"
+        />
+
+    <ListView
+        android:id="@+id/AdListView"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_below="@+id/EmTV"></ListView>
+
+    <TextView
+        android:id="@+id/EmTV2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/AdListView"
+        android:text="Services of Branch"
+        android:textAlignment="center"
+        />
+
+    <ListView
+        android:id="@+id/EmListView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/EmTV2"></ListView>
+
+</RelativeLayout>

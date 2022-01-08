@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.byblosmobileapplication">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ByblosMobileApplication">
+        <activity
+            android:name=".ShowRating"
+            android:exported="true" />
+        <activity
+            android:name=".DisplayBranchesRating"
+            android:exported="true" />
+        <activity
+            android:name=".GiveRating"
+            android:exported="true" />
+        <activity
+            android:name=".RateMyBranch"
+            android:exported="true" />
+        <activity
+            android:name=".DisplayBranches"
+            android:exported="true" />
+        <activity
+            android:name=".SearchForBranch"
+            android:exported="true" />
+        <activity
+            android:name=".ServiceRequestStatus"
+            android:exported="true" />
+        <activity
+            android:name=".CustomerPage"
+            android:exported="true" />
+        <activity
+            android:name=".CreateServiceRequest"
+            android:exported="true" />
+        <activity
+            android:name=".DisplayBranchServices"
+            android:exported="true" />
+        <activity
+            android:name=".InitiateWorkingHours"
+            android:exported="true" />
+        <activity
+            android:name=".BranchPage"
+            android:exported="true" />
+        <activity
+            android:name=".BranchProfile"
+            android:exported="true" />
+        <activity
+            android:name=".SpecifyWorkingHours"
+            android:exported="true" />
+        <activity
+            android:name=".ProfileManager"
+            android:exported="true" />
+        <activity
+            android:name=".ApproveRejectRequest"
+            android:exported="true" />
+        <activity
+            android:name=".ApproveOrReject"
+            android:exported="true" />
+        <activity
+            android:name=".EpAddService"
+            android:exported="true" />
+        <activity
+            android:name=".EmployeePage"
+            android:exported="true" />
+        <activity
+            android:name=".EditService"
+            android:exported="true" />
+        <activity
+            android:name=".SelectService"
+            android:exported="true" />
+        <activity
+            android:name=".DeleteService"
+            android:exported="true" />
+        <activity
+            android:name=".DisplayServices"
+            android:exported="true" />
+        <activity
+            android:name=".ManageAccount"
+            android:exported="true" />
+        <activity
+            android:name=".CreateService"
+            android:exported="true" />
+        <activity
+            android:name=".ServicePage"
+            android:exported="true" />
+        <activity
+            android:name=".AdminPage"
+            android:exported="true" />
+        <activity
+            android:name=".SignUpPage"
+            android:exported="true" />
+        <activity
+            android:name=".WelcomePage"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

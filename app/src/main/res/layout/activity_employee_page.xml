@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EmployeePage">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:gravity="center"
+            android:text="Welcome Employee"
+            android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="50dp" />
+
+
+        <Button
+            android:id="@+id/embutton1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Edit profile"
+            android:onClick="onClickEmployeeEditProfile"
+            />
+
+        <Button
+            android:id="@+id/embutton2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onClickAddServiceEM"
+            android:text="Add/Delete Branch service" />
+
+        <Button
+            android:id="@+id/embutton5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Approve/Reject Service Request"
+            android:onClick="onClickApproveRejectRequest"/>
+
+        <Button
+            android:id="@+id/embutton7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Specify working hours"
+            android:onClick="onClickSpecifyHours"
+            />
+
+        <TextView
+            android:id="@+id/textAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:id="@+id/textPhone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"/>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
